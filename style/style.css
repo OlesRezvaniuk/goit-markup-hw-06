@@ -940,7 +940,9 @@ background-color: var(--white-text-color);
 .modal {
     position: absolute;
     content: "";
+    padding: 40px;
     display: inline-block;
+    text-align: center;
     text-align: center;
     justify-content: center;
     height: max-content;
@@ -962,8 +964,10 @@ background-color: var(--white-text-color);
     letter-spacing: 0.03em;
 
     color: #212121;
-    padding: 40px 40px 0px 40px;
+
     margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
@@ -971,10 +975,9 @@ background-color: var(--white-text-color);
 
 .modal-form {
     width: 100%;
-    padding-left: 40px;
-    padding-right: 40px;
     height: max-content;
-    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .modal-item {
@@ -1175,8 +1178,9 @@ background-color: var(--white-text-color);
 }
 
 .send-button {
-    margin: auto;
     padding: 10px 55px;
+    margin-left: auto;
+    margin-right: auto;
 
     font-weight: 700;
     font-size: 16px;
@@ -1193,7 +1197,6 @@ background-color: var(--white-text-color);
     border-radius: 4px;
     border: none;
 
-    margin-bottom: 40px;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
